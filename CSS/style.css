@@ -8,7 +8,7 @@
     /* border: 1px solid black; */
 }
 .overlay{
-    background-color: rgba(0, 0, 0, 0.664);
+    background-color: rgba(0, 0, 0, 0.808);
     width: 100%;
     height: 500px;
     z-index: 1;
@@ -80,11 +80,14 @@
     border-top-left-radius: 15%;
     border-bottom-left-radius: 15%;
     border: 1.5px solid black;
+    box-shadow: 3px 2px 10px 3px white;
 }
 .search input{
     width: 80%;
     padding: .6%;
     border-right: 0;
+    box-shadow: 10px 2px 10px 3px white;
+    /* box-sizing: border-box;  */
 }
 .search button{
     padding: .6%;
@@ -95,6 +98,7 @@
     border-top-right-radius: 15%;
     border-bottom-right-radius: 15%;
     border-color: orangered;
+    box-shadow: 3px 2px 10px 3px white;
 }
 .right{
     margin-right: 1.5%;
@@ -104,6 +108,7 @@
     padding-left: 20px;
     padding-right: 20px;
     border-radius: 13%;
+    box-shadow: 2px 2px 10px 3px white;
 }
 .BodyText{
     color: white;
@@ -131,4 +136,31 @@
     color: orangered;
     border-color: orangered;
 }
-
+.explor{
+    display: flex;
+    flex-wrap: wrap;
+    margin-top: 4%;
+    width: 100%;
+}
+.txtt{
+    flex: 30%;
+    margin-left: 35%;
+    margin-top: .5%;
+}
+.bbttnn{
+    flex: 30%;
+    margin-left: -15%;
+    
+}
+.bbttnn button{
+    padding: 1%;
+    color: orangered;
+    background-color: transparent;
+    border-color: orangered;
+    border-radius: 10%;
+}
+.bbttnn button:hover{
+    color: white;
+    background-color: orangered;
+    border-color: white;
+}
